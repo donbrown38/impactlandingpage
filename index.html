@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING PAGE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    
+</head>
+<body>
+    
+      <!--Navbar section-->
+<nav>
+      <div class="navbar" id="myNavbar">
+        <!-- <div class="navbar__container"> -->
+            <a class="navbar__logo">
+                <img src="images/logo.jpg" alt="IMPACT" class="my-imagelogo">    
+            </a>
+            <a href="#" class="active_nav">Talk with an advisor</a>
+        </div>
+</nav>
+
+    <!--Hero section-->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h3>-- The IMPACT Conversation Collection --</h3>
+                <h1>Free Guide: How to Generate Even More Leads from Your Blog</h1>
+                <button onclick="jumpToForm()" id="get-started" class="main__btn">Get Started</button>
+            </div>
+            <div class="main__img--contianer">
+                <img src="images/pic1.jpg" alt="pic" id="main__img">
+            </div>
+        </div>
+    </div>
+
+    <!--Services Section-->
+<div class="services">
+    <h1>Learn how to turn more of your blog readers into customers through conversion rate optimization</h1>
+    <hr>
+    <div class="services__container">
+        <div class="services__card">
+            <p>While traffic growth on your blog is important, it's also meaningless without conversions. Effective conversion rate optimization means making small changes (to your calls-to-action, copy, etc.)
+                based on behaviors that yield big results.</p> <img src="images/pic2.jpg" alt="Generate event more Leads" id="sub_img">
+                <br>
+                <p> In this free guide, <b>we're giving away the secrets that have helped grow The IMPACT Blog earn over 20,000 subscribers</b> including:</p>
+                <br>
+                <ul>
+                    <li>The best places to put your calls-to-actions</li>
+                    <li>Actionable tips for optimizing the conversion path</li>
+                    <li>Ways to leverage social proof on your blog</li>
+                    <li>Growth hacks for improving your search ranking</li>
+                    <li>and more!</li>
+                </ul>
+                <br>
+                <p><b>Fill out the form on this page to get your free copy and start growing your blog right now!</b></p>
+        </div>
+        <div class=" form_container">
+            <form id="myForm">
+                <div class="wrapper">
+                <fieldset>
+                    <legend>GET MY COPY NOW!</legend>
+                    
+                    <div class="row">
+                        <div id="my-form1"  class="input-group">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="last_name" required>
+                        </div>       
+                       
+                        <div class="input-group">
+                            <label for="last_name">Last name</label>
+                            <input type="text" id="last_name" name="last_name" required>
+                        </div>
+                    </div>
+                   
+                    <br>
+                    
+                    <div class="input-group">
+                        <label for="email">Email <span>(Privacy Policy)</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <br>
+                    
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="company_name">Company Name</label>
+                            <input type="text" id="company_name" name="ccompany_name">
+                        </div>
+                        <div class="input-group">
+                            <label for="website">Website</label>
+                            <input type="text" id="website" name="website">
+                        </div>
+                    </div>
+                   
+                    <br>
+
+                    <div class="input-group">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Subscribe me to the IMPACT Blog (Daily)</label>   
+                    </div>
+                    <br>
+
+                    <p id="form_text">IMPACT needs the information you provide to send you the content you're requesting.
+                        We may contact you in the future about related resources
+                        or services that may be helpful to you, based on this information.
+                        You may unsubscribe from these communications at any time. For information on how to
+                        update your subscription preferences, as well as our privacy practices,
+                        check out our <b>Privacy Policy.</b>
+                    </p>
+                    <br>
+
+                    <div class="button">
+                        <button type="submit" value="submit">GENERATE MORE CONVERSIONS!</button>
+                    </div>
+                </fieldset>
+                </div>
+            </form>    
+        </div>
+    </div>
+</div>
+
+
+<!--Footer Section-->
+
+<div class="footer__container">
+    <div id="footer_logo">
+        <img src="images/logo.jpg" alt="footer_logo" class="footer_logo">
+    </div>
+    <div id="footer_txt">
+        <p class="website__rights"> IMPACT 2023. All rights reserved.</p>
+    </div>
+    <div id="menu_link">
+        <a href="#" >About Us</a>
+        <a href="#">How it works</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Terms of Services</a>
+    </div>
+    <div class="social__media">
+        <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-youtube"></i>
+        </a>
+   </div>      
+</div>
+
+<!-- Add HTML for the alert box and form -->
+<div class="alert-box">
+<span class="close-btn"><i class="fas fa-times"></i></span>
+    <div class="column_box">
+        <div class="alert_box_container">
+            <img src="images/training.jpg" alt="Business Consulting Training" id="training_img">
+        </div>
+        <div class="alert_box_container"> 
+            <h1> Get the ultimate tips to grow your business</h1><br>
+            <p id="sub_message"> Subscribe for 7 free & practical tips that are easy to implement. No strings attached. </p>
+        <form class="email-form" onsubmit="return validateEmail()" novalidate>
+            <input type="email" name="email" placeholder="Enter your email address" required>
+            <span class="error-message">Please enter a valid company email address</span>
+            <button class="submit"> Subscribe </button>
+        </form>
+        </div>
+    </div>
+</div>
+
+<!---Add html submit form button-->
+<div class="submit_block" Id="successMessage">
+    <p>Thank you for submitting the form, <br> a representative will get in touch with you!</p>
+    <div class="icon">
+        <i class="fa-sharp fa-solid fa-circle-check"></i>
+    </div>
+    <div class="successMessage_btn">
+        <span class="close-btn"><i class="fas fa-times"></i></span>    
+    </div>
+</div>
+
+<script src="myscripts.js"></script>
+<script src="myformjav.js"></script>
+<script src="https://kit.fontawesome.com/911b7ab861.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
